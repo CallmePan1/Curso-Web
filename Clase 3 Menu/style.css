@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.encabezado {
+    list-style: none;
+    background-color: rgb(131, 154, 253);
+    text-align: center;
+    height: 30vh;
+    padding-top: 3vh;
+}
+.encabezado li{
+    display: inline-block;
+    font-weight: 700;
+    padding-left: 4rem;
+}
+.encabezado a{
+    text-decoration: none;
+    color: black;
+}
