@@ -60,10 +60,11 @@ body{
 }
 .madre{
     display: flex;
+    flex-direction: column;
 }
 .contenido_sugerido{
     background-color: darkcyan;
-    width: 100%;
+    width: 94%;
     height: 40vh;
     padding-top: 3vh;
     padding-left: 3vh;
