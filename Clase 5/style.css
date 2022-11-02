@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.encabezado {
+    list-style: none;
+    background-color: rgb(194, 192, 61);
+    text-align: center;
+    height: 10vh;
+    padding-top: 3vh;
+}
+.encabezado li{
+    display: inline-block;
+    font-weight: 700;
+    padding-left: 4rem;
+}
+.encabezado a{
+    text-decoration: none;
+    color: black;
+}
+
+ .caja{
+    width: 80px;
+    height: 80px;
+} 
+
+.padre{
+    display: flex;
+    justify-content: space-around;
+}
+.caja1{
+    background-color: rgb(57, 185, 185);
+    width: 100%;
+    height: 80vh;
+    padding-top: 3vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+}
+.caja2{
+    background-color: rgb(115, 55, 172);
+    width: 100%;
+    height: 80vh;
+    padding-top: 3vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+}
+.caja3{
+    background-color: rgb(173, 52, 52);
+    width: 100%;
+    height: 80vh;
+    padding-top: 3vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+}
+.textocajas1{
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+.textocajas2{
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+.textocajas3{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.madre{
+    display: flex;
+    flex-direction: column;
+}
+.contenido_sugerido{
+    background-color: rgb(50, 156, 156);
+    width: 94%;
+    height: 20vh;
+    padding-top: 3vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+}
+.footer{
+    background-color: rgb(165, 49, 165);
+    width: 94%;
+    height: 10vh;
+    padding-top: 3vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+} 
+.footerlol{
+    font-size: large;
+    position: relative;
+    left: 340px;
+    list-style: none;
+}
+.imagen{
+    height: 260px;
+    width: 260px;
+    box-shadow: 12px 8px 5px rgba(101, 101, 100, 0.555); 
+    border-radius: 20px;
+}
+.textofooter{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.si{
+    font-size: 20px;
+    position: relative;
+    left: 430px;
+}
