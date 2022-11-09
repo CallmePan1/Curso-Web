@@ -112,3 +112,53 @@ body{
     left: 430px;
 }
 
+/* Primer celular*/
+
+@media(min-width:576px){
+    .encabezado{
+        background-color: aquamarine;
+    }
+    .imagen{
+        height: 240px;
+        width: 240px;
+        box-shadow: 12px 8px 5px rgba(101, 101, 100, 0.555); 
+        border-radius: 20px;
+    }
+    .textocajas1{
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+.contenido_sugerido{
+    background-color: rgb(50, 156, 59);
+    width: 94.6%;
+    height: 20vh;
+    padding-top: 3vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+}
+
+    .footer{
+        background-color: rgb(165, 49, 165);
+        width: 94.6%;
+        height: 10vh;
+        padding-top: 3vh;
+        padding-left: 3vh;
+        padding-right: 3vh;
+    } 
+}
+
+/* Tablet*/
+
+@media(min-width:768px){
+    .encabezado{
+        background-color: blueviolet;
+    }
+}
+
+/*Netbook*/
+
+@media(min-width:992px){
+    .encabezado{
+        background-color: brown;
+    }
+}
